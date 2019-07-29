@@ -1,0 +1,87 @@
+header, nav, section, menu, footer, body, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, hr, input, button, div, p, textarea, img, th, td, form, legend, prev, textarea {
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: normal; }
+
+i, em {
+  font-style: normal; }
+
+b, strong {
+  font-weight: normal; }
+
+a, u {
+  text-decoration: none; }
+
+input {
+  outline: none;
+  border: 0; }
+
+ul, ol, li {
+  list-style: none; }
+
+img {
+  border: none; }
+
+.regheader {
+  height: 110px;
+  line-height: 110px;
+  box-shadow: 5px 5px 5px deepskyblue;
+  padding-bottom: 10px; }
+  .regheader .headWrap {
+    width: 1210px;
+    margin: 0 auto;
+    padding-top: 20px; }
+    .regheader .headWrap .logo-title {
+      float: left;
+      font-size: 24px;
+      color: #333;
+      margin-top: -13px; }
+    .regheader .headWrap .logo-account {
+      float: right; }
+      .regheader .headWrap .logo-account h1 {
+        font-size: 16px;
+        color: #999;
+        float: left;
+        margin-top: -13px; }
+      .regheader .headWrap .logo-account a {
+        font-size: 16px;
+        color: red;
+        float: left;
+        text-decoration: none;
+        margin-top: -13px; }
+
+#reg {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 30px; }
+  #reg ul li {
+    display: block;
+    clear: both; }
+    #reg ul li div {
+      margin: 5px 0; }
+      #reg ul li div:nth-child(1) {
+        float: left;
+        margin-right: 230px;
+        width: 120px; }
+      #reg ul li div:nth-child(2) {
+        border: 1px solid #999;
+        float: left; }
+      #reg ul li div:nth-child(3) {
+        border: 1px solid #999;
+        float: left;
+        margin-left: 10px; }
+  #reg p {
+    clear: both;
+    margin: 0 auto; }
+  #reg #regBtn {
+    width: 300px;
+    height: 100px;
+    margin: 0 auto; }
+    #reg #regBtn input {
+      border: 1px solid black;
+      border-radius: 4px; }
+
+/*# sourceMappingURL=Reglog.css.map */

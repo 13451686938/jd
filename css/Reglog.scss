@@ -1,0 +1,76 @@
+header,nav,section,menu,footer,body,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,hr,input,button,div,p,textarea,img,th,td,form,legend,prev,textarea
+{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-size:16px;font-weight:normal;}
+i,em{font-style:normal;}
+b,strong{font-weight:normal;}
+
+
+
+
+a,u{text-decoration:none;}
+input{outline:none;border:0;}
+ul,ol,li{list-style:none;}
+img{border:none;}
+//reg部分
+.regheader{height:110px;line-height: 110px;box-shadow: 5px 5px 5px deepskyblue;padding-bottom: 10px;
+    .headWrap{width:1210px;margin:0 auto;padding-top:20px;
+        .logo-title{float:left;font-size:24px;color:#333;margin-top:-13px;}
+        .logo-account{
+            float:right;
+            h1{font-size:16px;color:#999;float:left;margin-top:-13px;}
+            a{font-size:16px;color:red;float:left;text-decoration: none;margin-top:-13px;}
+        }
+    }
+}
+#reg{width:800px;margin:0 auto;margin-top: 30px;
+    ul{
+        li{display:block;clear:both;
+            div{margin:5px 0;
+            &:nth-child(1){float:left;margin-right:230px;width:120px;}
+            &:nth-child(2){border:1px solid #999;float:left; }
+            &:nth-child(3){border:1px solid #999;float:left;margin-left:10px; }
+            }
+        }
+    }
+    p{clear:both;margin:0 auto;}
+    #regBtn{width:300px;height:100px;;margin:0 auto;
+       input{border:1px solid black;border-radius:4px;}
+    }
+}
+
+//Sass用法尝试
+// p{
+//     @if 1+1 ==2{border:1px solid;}
+//     @if 5<3{border:2px dotted;}
+//     @if null{border:3px double;}
+// }
+// $type:monster;
+// p{
+//     @if $type ==ocean{
+//         color:blue;
+//     }@else if $type ==matador{
+//         color:red;
+//     }@else if $type == monster {
+//         color : green;
+//     }@else{
+//         color: black;
+//     }
+// }
+// p{
+//   $animal:sail;
+//     @if $animal == lion{color:yellow;}
+//     @else if $animal == chicken{color:green;}
+//     @else if $animal == monkey{color:black;}
+//     @else {color:blue;}  
+// }
+// @for $i from 1 through 3 {
+//     .item-#{$i}{width:2em *#{$i};}
+// }
+// @for $i from 1 through 3{
+//     li:nth-child(#{$i}){width:3px*#{$i};}
+// }
+// @each $animal in puma, sea-slug, egret, salamander {
+//     .#{$animal}-icon {
+//       background-image: url('/images/#{$animal}.png');
+//     }
+//   }
